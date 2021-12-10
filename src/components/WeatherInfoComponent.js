@@ -109,7 +109,7 @@ const WeatherComponent = (props) => {
     <>
       <WeatherCondition>
         <Condition>
-          <span>{`${Math.floor((weather?.main?.temp - 273)* 9/5 + 32)}°F`}</span>{" "}
+          <span>{`${Math.floor(weather?.main?.temp - 273)}°C`}</span>{" "}
           {`| ${weather?.weather[0].description}`}
         </Condition>
         <WeatherLogo src={weatherIcons[weather?.weather[0].icon]} />
