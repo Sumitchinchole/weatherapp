@@ -1,28 +1,28 @@
 import styled from "styled-components";
 
 const WeatherInfoIcons = {
-  sunset: "/icons/temp.svg",
-  sunrise: "/icons/temp.svg",
-  humidity: "/icons/humidity.svg",
-  wind: "/icons/wind.svg",
-  pressure: "/icons/pressure.svg",
+  sunset: "/weatherapp/icons/temp.svg",
+  sunrise: "/weatherapp/icons/temp.svg",
+  humidity: "/weatherapp/icons/humidity.svg",
+  wind: "/weatherapp/icons/wind.svg",
+  pressure: "/weatherapp/icons/pressure.svg",
 };
 
 const weatherIcons = {
-  "01d": "icons/sunny.svg",
-  "'01d'": "icons/night.svg",
-  "02d": "icons/day.svg",
-  '"02d"': "icons/cloudy-night.svg",
-  "03d": "icons/cloudy.svg",
-  '"03d"': "icons/cloudy.svg",
-  "04d": "icons/perfect-day.svg",
-  '"04d"': "icons/cloudy-night.svg",
-  "09d": "icons/rain.svg",
-  '"09d"': "icons/rain-night.svg",
-  "10d": "icons/rain.svg",
-  '"10d"': "icons/rain-night.svg",
-  "11d": "icons/storm.svg",
-  '"11d"': "icons/storm.svg",
+  "01d": "/weatherapp/icons/sunny.svg",
+  "'01d'": "/weatherapp/icons/night.svg",
+  "02d": "/weatherapp/icons/day.svg",
+  '"02d"': "/weatherapp/icons/cloudy-night.svg",
+  "03d": "/weatherapp/icons/cloudy.svg",
+  '"03d"': "/weatherapp/icons/cloudy.svg",
+  "04d": "/weatherapp/icons/perfect-day.svg",
+  '"04d"': "/weatherapp/icons/cloudy-night.svg",
+  "09d": "/weatherapp/icons/rain.svg",
+  '"09d"': "/weatherapp/icons/rain-night.svg",
+  "10d": "/weatherapp/icons/rain.svg",
+  '"10d"': "/weatherapp/icons/rain-night.svg",
+  "11d": "/weatherapp/icons/storm.svg",
+  '"11d"': "/weatherapp/icons/storm.svg",
 };
 
 const WeatherCondition = styled.div`
